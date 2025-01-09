@@ -1,6 +1,6 @@
 import "../globals.css";
-import Navbar from "../../../components/Navbar";
-import Header from "../../../components/Header";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 export const metadata = {
   title: "Lexardi Studio",
   description: "Lexardi es un estudio de diseño, y más cosas...",
