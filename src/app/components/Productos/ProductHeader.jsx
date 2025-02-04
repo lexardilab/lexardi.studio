@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <>
-            <div className='grid grid-cols-4 gap-1 px-1'>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-1 px-1'>
                 <div>
                     <Link href='https://buy.stripe.com/9AQ9DR6lNc4E1GM8ww'><Image
                         src="/home_1.jpg"
@@ -12,13 +12,13 @@ export default function Header() {
                         alt="Harri Brand"
                     /></Link></div>
                 <div><Image
-                    src="/home_1.jpg"
+                    src="/home_4.jpg"
                     width="1000"
                     height="100"
                     alt="Harri Brand"
                 /></div>
                 <div><Image
-                    src="/home_1.jpg"
+                    src="/home_5.jpg"
                     width="1000"
                     height="100"
                     alt="Harri Brand"
