@@ -7,14 +7,13 @@ export default function Navbar() {
                 <Link href='/'>
                     <Image
                         src="/Logo_Lexardi.svg"
-                        width="18nvm use 22.9.00"
+                        width="200"
                         height="100"
                         alt="Harri Brand"
                         className=""
                     />
                 </Link>
             </div>
-            <div><Link href='/productos'>Productos</Link></div>
         </div>
     );
 }
